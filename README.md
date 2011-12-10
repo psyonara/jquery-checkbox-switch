@@ -25,6 +25,6 @@ All of these are optional.
 1. Download and add jquery-checkbox-switch.js to the head of your HTML file.
 2. Initialize control for any checkbox, as required.
 
-```$("#id_checkbox").jQueryCheckboxSwitch();
-
+```javascript
+$("#id_checkbox").jQueryCheckboxSwitch();
 ```
