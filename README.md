@@ -2,7 +2,7 @@
 
 This is a replacement for a standard checkbox control, offering a more aesthetically pleasing on/off style switch-button.
 
-The plugin was inspired by http://devgrow.com/iphone-style-switches/.
+The plugin was inspired by http://devgrow.com/iphone-style-switches/. Any suggestions for improvement are welcome!
 
 ## Plugin options
 
