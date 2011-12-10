@@ -24,11 +24,11 @@ All of these are optional.
 
 1. Download and add jquery-checkbox-switch.js to the head of your HTML file:
 
-> "<script src="/path/to/jquery-checkbox-switch.js"></script>"
+    <script src="/path/to/jquery-checkbox-switch.js"></script>
 
 2. Initialize control for any checkbox, as required.
 
-> "$('#id_checkbox').jQueryCheckboxSwitch({
-    'on-text': 'YES',
-    'off-text': 'NO'
-});"
+    $('#id_checkbox').jQueryCheckboxSwitch({
+        'on-text': 'YES',
+        'off-text': 'NO'
+    });
