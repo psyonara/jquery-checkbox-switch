@@ -4,6 +4,10 @@ This is a replacement for a standard checkbox control, offering a more aesthetic
 
 The plugin was inspired by http://devgrow.com/iphone-style-switches/. Any suggestions for improvement are welcome!
 
+## Demo
+
+For some live examples, visit http://www.devigninnovation.com/jquery-checkbox-switch/index.html
+
 ## Plugin options
 
 All of these are optional.
