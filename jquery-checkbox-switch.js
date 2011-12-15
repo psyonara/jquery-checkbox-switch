@@ -1,5 +1,5 @@
 (function( $ ) {
-    $.fn.jQueryCheckboxSwitch = function(options) {
+    $.fn.CheckboxSwitch = function(options) {
 
         var settings = $.extend({
             'border-color': '#111',
@@ -30,24 +30,26 @@
         };
   
         var style_main = function(element) {
-            element
-                .css("border", "1px solid " + settings['border-color'])
-                .css("-webkit-border-radius", settings['border-radius'])
-                .css("-moz-border-radius", settings['border-radius'])
-                .css("border-radius", settings['border-radius'])
-                .css("margin", "0")
-                .css("padding", settings['padding'] + " 0 " + settings['padding'] + " 0");
+            element.css({
+                "border": "1px solid " + settings['border-color'],
+                "-webkit-border-radius": settings['border-radius'],
+                "-moz-border-radius": settings['border-radius'],
+                "border-radius": settings['border-radius'],
+                "margin": "0",
+                "padding": settings['padding'] + " 0 " + settings['padding'] + " 0"
+            });
         };
 
         var style_switch_general = function(element) {
-            element
-                .css("cursor", "pointer")
-                .css("padding", settings['padding']);
+            element.css({
+                "cursor": "pointer",
+                "padding": settings['padding']
+            });
         };
 
         var style_off = function(element) {
             element
-                .css("color", "#000");
+                .css("color", "#888");
             style_gradiant(element, settings['off-gradient-start'], settings['off-gradient-end']);
         };
 
