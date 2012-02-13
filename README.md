@@ -35,5 +35,5 @@ All of these are optional.
 2. Initialize control for any checkbox, as required.
 
 ```javascript
-$("#id_checkbox").jQueryCheckboxSwitch();
+$("#id_checkbox").CheckboxSwitch();
 ```
