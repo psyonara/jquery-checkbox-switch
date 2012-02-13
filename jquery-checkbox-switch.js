@@ -77,8 +77,13 @@
             style_main(parent_span);
             style_switch_general(on_switch);
             style_switch_general(off_switch);
-            style_off(on_switch);
-            style_on_off(off_switch);
+            if (checkbox.attr("checked") == "checked") {
+                style_on_on(on_switch);
+                style_off(off_switch);
+            } else {
+                style_off(on_switch);
+                style_on_off(off_switch);
+            }
 
             $(this).css("display", "none");
             $(this).wrapAll(parent_div).wrapAll(parent_span);
